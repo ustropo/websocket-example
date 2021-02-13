@@ -4,6 +4,8 @@
 /node_modules
 /.pnp
 .pnp.js
+/frontend/node_modules
+node_modules/*
 
 # testing
 /coverage
@@ -21,3 +23,7 @@
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+
+*__pycache__*
+
+.vscode*
