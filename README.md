@@ -22,6 +22,12 @@ A server in the `localhost:8000` must be created.
 
 The client is implemented usign React and Recharts. 
 
+Go to the frontend directory:
+
+```
+cd frontend
+```
+
 Install the dependencies:
 
 ```
