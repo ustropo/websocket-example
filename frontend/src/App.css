@@ -16,3 +16,11 @@
 .App-link {
   color: #61dafb;
 }
+
+#indicator {
+  position: relative; 
+  width: 20px;
+  height: 20px;
+  background-color: green;
+  border: 1px solid #dddddd;
+}

@@ -11,7 +11,8 @@ async def websocket_endpoint(websocket: WebSocket):
     while True:
         try:
             # Wait for any message from the client
-            await websocket.receive_text()
+            recieved = await websocket.receive_text()
+            print(recieved)
             # Send message to the client
             resp = {'value': random.uniform(0, 1)}
             await websocket.send_json(resp)
